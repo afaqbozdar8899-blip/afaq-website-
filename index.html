@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afaq Ahmed | Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background: #f5f7fa;
+            color: #222;
+        }
+
+        header {
+            background: #111827;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 8px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        section {
+            padding: 60px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+            background: white;
+        }
+
+        .hero .emoji {
+            font-size: 60px;
+        }
+
+        .hero h2 {
+            font-size: 38px;
+            margin: 15px 0;
+        }
+
+        .hero p {
+            font-size: 18px;
+            max-width: 700px;
+            margin: auto;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 22px;
+            background: #2563eb;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background: #1d4ed8;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        .subtitle {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #666;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+
+        .card .icon {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+        }
+
+        .contact-form {
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 13px;
+            margin: 8px 0 15px;
+            border: 1px solid #ccc;
+            border-radius: 7px;
+            font-size: 16px;
+        }
+
+        .contact-form textarea {
+            height: 130px;
+            resize: vertical;
+        }
+
+        .contact-form button {
+            width: 100%;
+            padding: 13px;
+            border: none;
+            border-radius: 7px;
+            background: #2563eb;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background: #1d4ed8;
+        }
+
+        footer {
+            background: #111827;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 600px) {
+            .hero h2 {
+                font-size: 30px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>AFAQ.</h1>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+
+    <!-- Home -->
+    <section id="home" class="hero">
+        <div class="emoji">👨‍💻</div>
+
+        <h2>Hi, I'm Afaq Ahmed</h2>
+
+        <p>
+            I'm a student learning Web Development and Python.
+            I love creating beautiful websites and learning new technology.
+        </p>
+
+        <a href="#projects" class="button">
+            🚀 View My Projects
+        </a>
+    </section>
+
+
+    <!-- About -->
+    <section id="about">
+        <h2>👤 About Me</h2>
+        <p class="subtitle">Get to know me</p>
+
+        <div class="card">
+            <p>
+                Assalam-o-Alaikum! Mera naam Afaq Ahmed hai.
+            </p>
+
+            <br>
+
+            <p>
+                Main web development aur programming seekh raha hoon.
+                Mera goal hai ke main future mein professional websites
+                aur applications bana sakun.
+            </p>
+
+            <br>
+
+            <p>
+                Ye website bhi meri learning journey ka ek project hai. ❤️
+            </p>
+        </div>
+    </section>
+
+
+    <!-- Skills -->
+    <section id="skills">
+        <h2>🛠️ My Skills</h2>
+        <p class="subtitle">Technologies I am learning</p>
+
+        <div class="cards">
+
+            <div class="card">
+                <div class="icon">🌐</div>
+                <h3>HTML</h3>
+                <p>
+                    Website ka structure aur content banana.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icon">🎨</div>
+                <h3>CSS</h3>
+                <p>
+                    Website ko beautiful aur professional design dena.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icon">⚡</div>
+                <h3>JavaScript</h3>
+                <p>
+                    Website mein buttons aur interactive features banana.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icon">🐍</div>
+                <h3>Python</h3>
+                <p>
+                    Programming aur problem solving seekhna.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Projects -->
+    <section id="projects">
+        <h2>📂 My Projects</h2>
+        <p class="subtitle">Things I have built while learning</p>
+
+        <div class="cards">
+
+            <div class="card">
+                <div class="icon">🌐</div>
+                <h3>Personal Website</h3>
+                <p>
+                    Meri apni professional portfolio website jo
+                    HTML, CSS aur JavaScript se banayi gayi hai.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icon">📩</div>
+                <h3>Contact Form</h3>
+                <p>
+                    Ek interactive contact form jahan visitor
+                    apna naam aur message enter kar sakta hai.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icon">🐍</div>
+                <h3>Python Practice</h3>
+                <p>
+                    Python mein variables, input, calculations
+                    aur basic programming exercises.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>📞 Contact Me</h2>
+        <p class="subtitle">Send me a message</p>
+
+        <form class="contact-form">
+
+            <input
+                type="text"
+                placeholder="Apna naam likhein"
+                required
+            >
+
+            <input
+                type="email"
+                placeholder="Apni email likhein"
+                required
+            >
+
+            <textarea
+                placeholder="Apna message likhein"
+                required
+            ></textarea>
+
+            <button type="submit">
+                🚀 Send Message
+            </button>
+
+        </form>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            © 2026 Afaq Ahmed | Made with ❤️ while learning
+        </p>
+    </footer>
+
+</body>
+</html>
